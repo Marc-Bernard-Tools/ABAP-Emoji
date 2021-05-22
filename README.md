@@ -20,17 +20,21 @@ We recommend to use package `$EMOJI`.
 
 ## Usage
 
+### ABAP
+
 ```abap
-lv_html = zcl_emoji=>format_line( 'I :heart: ABAP' ).
+write zcl_emoji=>format_emoji( 'I :heart: ABAP' ).
 ```
 
-Output
+### Output
+
+I ❤️ ABAP
 
 ```html
 I <i class="twa twa-heart"></i> ABAP
 ```
 
-Include [`twemoji-awesome.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-awesome.css) in your HTML output.
+Note: Include [`twemoji-awesome.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-awesome.css) in your HTML output.
 
 ## Integrate with abapGit (Developer Version)
 
@@ -60,7 +64,7 @@ All contributions are welcome! Just fork this repo and create a pull request.
 
 ## About
 
-<p>Made with <img width="20" height="20" src="img/heart.webp" alt="Red Heart"> in Canada</p>
+<p>Made with :heart: in Canada</p>
 <p>Copyright © 2021 <a href="https://marcbernardtools.com/">Marc Bernard Tools</a></p>
 <p>Follow <a href="https://twitter.com/marcfbe">@marcfbe</a> on Twitter</p>
 <p><a href="https://marcbernardtools.com/"><img width="160" height="65" src="img/MBT_Logo_640x250_on_Gray.png" alt="MBT Logo"></a></p>
