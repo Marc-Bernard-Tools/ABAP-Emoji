@@ -101,7 +101,9 @@
 			"severity": "Error"
 		},
 		"check_include": {
-			"exclude": [],
+			"exclude": [
+        "#mbtools#zemoji_list.prog.*"
+      ],
 			"severity": "Error"
 		},
 		"check_subrc": {
