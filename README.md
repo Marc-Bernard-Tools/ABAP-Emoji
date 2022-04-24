@@ -43,7 +43,7 @@ I ❤️ ABAP
 I <i class="twa twa-heart"></i> ABAP
 ```
 
-Note: Include [`twemoji-awesome.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-awesome.css) in your HTML output.
+Note: Include [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-amazing.css) in your HTML output.
 
 ## Integrate with abapGit (Developer Version)
 
