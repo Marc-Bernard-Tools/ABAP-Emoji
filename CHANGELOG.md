@@ -15,10 +15,17 @@ and [ISO Date Format](https://www.iso.org/iso-8601-date-and-time-format.html).
 ### Fixed
 
 
+## Version [1.1.0] - 2022-04-24
+
+### Changed
+
+- Switched to Twemoji Amazing (since Twemoji Awesome is not maintained anymore)
+
 ## Version [1.0.0] - 2022-01-01
 
 Initial Release.
 
 
-[Unreleased]: https://github.com/Marc-Bernard-Tools/ABAP-.../compare/1.0.0...main
-[1.0.0]: https://github.com/Marc-Bernard-Tools/ABAP-.../releases/tag/1.0.0
+[Unreleased]: https://github.com/Marc-Bernard-Tools/ABAP-Emoji/compare/1.1.0...main
+[1.1.0]: https://github.com/Marc-Bernard-Tools/ABAP-Emoji/releases/tag/1.1.0
+[1.0.0]: https://github.com/Marc-Bernard-Tools/ABAP-Emoji/releases/tag/1.0.0
