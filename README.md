@@ -1,4 +1,4 @@
-# ABAP-Emoji
+# ✨ABAP-Emoji ✨
 
 Emoji for ABAP (abapGit)
 
@@ -19,6 +19,15 @@ You can install ABAP Emoji using [abapGit](https://github.com/abapGit/abapGit) e
 We recommend to use package `$EMOJI`.
 
 ## Usage
+
+### Emojis
+
+Use [Twemoji Cheatsheet](https://twemoji-cheatsheet.vercel.app/) to view all supported Emojis. 
+
+To find the name of an Emoji, go to the official [Unicode Emoji List](https://unicode.org/emoji/charts/emoji-list.html). The name is based on the "CLDR short name" with spaces replaced by `-`.
+
+Other helpful sources: [Emoji Test (Plain Text List)](https://unicode.org/Public/emoji/13.1/emoji-test.txt), [Emoji JSON](https://github.com/amio/emoji.json), 
+[Emoji Community Projects](https://github.com/twitter/twemoji#community-projects).
 
 ### ABAP
 

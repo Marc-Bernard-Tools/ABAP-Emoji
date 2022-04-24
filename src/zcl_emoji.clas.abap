@@ -6,6 +6,8 @@ CLASS zcl_emoji DEFINITION
 ********************************************************************************
 * ABAP Emoji
 *
+* Support for Emoji v13.1
+*
 * https://github.com/Marc-Bernard-Tools/ABAP-Emoji
 * https://marcbernardtools.com/
 ********************************************************************************
