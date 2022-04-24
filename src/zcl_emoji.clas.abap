@@ -35,12 +35,11 @@ CLASS zcl_emoji DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
 
-    CONSTANTS gc_emoji_list TYPE progname VALUE 'ZEMOJI_LIST'.
+    CONSTANTS c_emoji_list TYPE progname VALUE 'ZEMOJI_LIST'.
 
     CLASS-DATA gt_emoji TYPE HASHED TABLE OF string WITH UNIQUE KEY table_line.
 
     CLASS-METHODS init_emoji.
-
 ENDCLASS.
 
 
@@ -94,7 +93,7 @@ CLASS zcl_emoji IMPLEMENTATION.
 
     FIELD-SYMBOLS <lv_emoji> LIKE LINE OF gt_emoji.
 
-    READ REPORT gc_emoji_list INTO lt_emoji.
+    READ REPORT c_emoji_list INTO lt_emoji.
     ASSERT sy-subrc = 0.
 
     LOOP AT lt_emoji ASSIGNING <lv_emoji> WHERE table_line CP '" *'.
