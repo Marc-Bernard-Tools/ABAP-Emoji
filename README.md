@@ -6,7 +6,7 @@ Made by [Marc Bernard Tools](https://marcbernardtools.com/) giving back to the [
 
 NO WARRANTIES, [MIT License](LICENSE)
 
-Based on [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/) (MIT License)
+Based on [Twemoji Amazing](https://github.com/SebastianAigner/twemoji-amazing) (MIT License)
 
 ## Prerequisite
 
