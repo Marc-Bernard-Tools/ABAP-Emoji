@@ -1,12 +1,12 @@
-# ✨ABAP-Emoji ✨
+# ✨ ABAP-Emoji ✨
 
-Emoji for ABAP (abapGit)
+Emoji for ABAP
 
 Made by [Marc Bernard Tools](https://marcbernardtools.com/) giving back to the [SAP Community](https://community.sap.com/)
 
 NO WARRANTIES, [MIT License](LICENSE)
 
-Based on [Twemoji Amazing](https://github.com/SebastianAigner/twemoji-amazing) (MIT License)
+Based on [Twitter Emoji](https://github.com/twitter/twemoji) and [Twemoji Amazing](https://github.com/SebastianAigner/twemoji-amazing) (MIT License)
 
 ## Prerequisite
 
@@ -20,9 +20,9 @@ We recommend to use package `$EMOJI`.
 
 ## Usage
 
-### Emojis
+### Emoji
 
-Use [Twemoji Cheatsheet](https://twemoji-cheatsheet.vercel.app/) to view all supported Emojis. 
+Use [Twemoji Cheatsheet](https://twemoji-cheatsheet.vercel.app/) to view all supported Emoji. 
 
 To find the name of an Emoji, go to the official [Unicode Emoji List](https://unicode.org/emoji/charts/emoji-list.html). The name is based on the "CLDR short name" with spaces replaced by `-`.
 
@@ -65,7 +65,7 @@ CLASS zcl_abapgit_syntax_highlighter IMPLEMENTATION.
 
 2. Start transaction `SMW0` > `Binary data` > `$ABAPGIT` 
 3. Edit `ZABAPGIT_ICON_FONT_CSS`
-4. Append [`twemoji-awesome.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-awesome.css) to the icon css and save
+4. Append [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-amazing.css) to the icon css and save
 
 ## Contributions
 
@@ -74,7 +74,7 @@ All contributions are welcome! Just fork this repo and create a pull request.
 ## About
 
 <p>Made with :heart: in Canada</p>
-<p>Copyright © 2021 <a href="https://marcbernardtools.com/">Marc Bernard Tools</a></p>
+<p>Copyright © 2022 <a href="https://marcbernardtools.com/">Marc Bernard Tools</a></p>
 <p>Follow <a href="https://twitter.com/marcfbe">@marcfbe</a> on Twitter</p>
 <p><a href="https://marcbernardtools.com/"><img width="160" height="65" src="https://marcbernardtools.com/info/MBT_Logo_640x250_on_Gray.png" alt="MBT Logo"></a></p>
 
