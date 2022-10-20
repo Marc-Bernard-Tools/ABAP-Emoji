@@ -73,7 +73,7 @@ All contributions are welcome! Read our [Contribution Guidelines](CONTRIBUTING.m
 
 ## About
 
-Made with :heart: in Canada
+Made with :red-heart: in Canada
 
 Copyright 2021 Marc Bernard <https://marcbernardtools.com/>
 
