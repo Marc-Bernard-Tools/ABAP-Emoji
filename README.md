@@ -58,7 +58,7 @@ CLASS zcl_abapgit_syntax_highlighter IMPLEMENTATION.
 ...
     lv_escaped = show_hidden_chars( lv_escaped ).
 
-    lv_escaped = zcl_emoji=>format_emoji( lv_escaped ). "<<< insert
+    lv_escaped = zcl_emoji=>create( )->format_emoji( lv_escaped ). "<<< insert
 ...
   ENDMETHOD.
 ```
