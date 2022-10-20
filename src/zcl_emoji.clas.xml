@@ -14,9 +14,24 @@
    </VSEOCLASS>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
-     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <CMPNAME>CREATE</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+     <DESCRIPT>Create instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FIND_EMOJI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return list of emoji matching regex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_EMOJI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Replace &quot;:emoji:&quot; with HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT_EMOJI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initialize list of emoji</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

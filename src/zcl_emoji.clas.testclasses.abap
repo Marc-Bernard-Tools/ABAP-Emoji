@@ -7,6 +7,9 @@
 CLASS ltcl_test DEFINITION FOR TESTING RISK LEVEL HARMLESS DURATION SHORT FINAL.
 
   PRIVATE SECTION.
+    DATA mo_cut TYPE REF TO zcl_emoji.
+
+    METHODS setup.
     METHODS test_find FOR TESTING.
     METHODS test_format FOR TESTING.
 
@@ -14,10 +17,15 @@ ENDCLASS.
 
 CLASS ltcl_test IMPLEMENTATION.
 
+  METHOD setup.
+    mo_cut = zcl_emoji=>create( ).
+  ENDMETHOD.
+
+
   METHOD test_find.
     DATA lt_emoji TYPE TABLE OF string.
 
-    lt_emoji = zcl_emoji=>find_emoji( 'sparkles' ).
+    lt_emoji = mo_cut->find_emoji( 'sparkles' ).
 
     cl_aunit_assert=>assert_equals(
       act = lines( lt_emoji )
@@ -27,7 +35,7 @@ CLASS ltcl_test IMPLEMENTATION.
   METHOD test_format.
     DATA lv_html TYPE string.
 
-    lv_html = zcl_emoji=>format_emoji( 'Here are some :sparkles:' ).
+    lv_html = mo_cut->format_emoji( 'Here are some :sparkles:' ).
 
     cl_aunit_assert=>assert_equals(
       act = lv_html
