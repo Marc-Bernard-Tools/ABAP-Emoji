@@ -1,7 +1,7 @@
 ********************************************************************************
 * ABAP Emoji
 *
-* Support for Emoji v13.1
+* Support for Emoji v14.0
 *
 * https://github.com/Marc-Bernard-Tools/ABAP-Emoji
 *
@@ -127,6 +127,7 @@
 " battery
 " beach-with-umbrella
 " beaming-face-with-smiling-eyes
+" beans
 " bear
 " beating-heart
 " beaver
@@ -146,6 +147,7 @@
 " bird
 " birthday-cake
 " bison
+" biting-lip
 " black-cat
 " black-circle
 " black-flag
@@ -202,6 +204,7 @@
 " brown-heart
 " brown-square
 " bubble-tea
+" bubbles
 " bucket
 " bug
 " building-construction
@@ -338,6 +341,7 @@
 " cooking
 " cool-button
 " copyright
+" coral
 " couch-and-lamp
 " counterclockwise-arrows-button
 " couple-with-heart
@@ -466,6 +470,7 @@
 " crossed-flags
 " crossed-swords
 " crown
+" crutch
 " crying-cat
 " crying-face
 " crystal-ball
@@ -533,6 +538,7 @@
 " dollar-banknote
 " dolphin
 " door
+" dotted-line-face
 " dotted-six-pointed-star
 " double-curly-loop
 " double-exclamation-mark
@@ -586,6 +592,7 @@
 " elf-medium-dark-skin-tone
 " elf-medium-light-skin-tone
 " elf-medium-skin-tone
+" empty-nest
 " end-arrow
 " envelope
 " envelope-with-arrow
@@ -600,15 +607,19 @@
 " eyes
 " face-blowing-a-kiss
 " face-exhaling
+" face-holding-back-tears
 " face-in-clouds
 " face-savoring-food
 " face-screaming-in-fear
 " face-vomiting
+" face-with-diagonal-mouth
 " face-with-hand-over-mouth
 " face-with-head-bandage
 " face-with-medical-mask
 " face-with-monocle
+" face-with-open-eyes-and-hand-over-mouth
 " face-with-open-mouth
+" face-with-peeking-eye
 " face-with-raised-eyebrow
 " face-with-rolling-eyes
 " face-with-spiral-eyes
@@ -1070,6 +1081,7 @@
 " hammer
 " hammer-and-pick
 " hammer-and-wrench
+" hamsa
 " hamster
 " hand-with-fingers-splayed
 " hand-with-fingers-splayed-dark-skin-tone
@@ -1077,8 +1089,19 @@
 " hand-with-fingers-splayed-medium-dark-skin-tone
 " hand-with-fingers-splayed-medium-light-skin-tone
 " hand-with-fingers-splayed-medium-skin-tone
+" hand-with-index-finger-and-thumb-crossed
+" hand-with-index-finger-and-thumb-crossed-dark-skin-tone
+" hand-with-index-finger-and-thumb-crossed-light-skin-tone
+" hand-with-index-finger-and-thumb-crossed-medium-dark-skin-tone
+" hand-with-index-finger-and-thumb-crossed-medium-light-skin-tone
+" hand-with-index-finger-and-thumb-crossed-medium-skin-tone
 " handbag
 " handshake
+" handshake-dark-skin-tone
+" handshake-light-skin-tone
+" handshake-medium-dark-skin-tone
+" handshake-medium-light-skin-tone
+" handshake-medium-skin-tone
 " hatching-chick
 " headphone
 " headstone
@@ -1091,11 +1114,18 @@
 " hear-no-evil-monkey
 " heart-decoration
 " heart-exclamation
+" heart-hands
+" heart-hands-dark-skin-tone
+" heart-hands-light-skin-tone
+" heart-hands-medium-dark-skin-tone
+" heart-hands-medium-light-skin-tone
+" heart-hands-medium-skin-tone
 " heart-on-fire
 " heart-suit
 " heart-with-arrow
 " heart-with-ribbon
 " heavy-dollar-sign
+" heavy-equals-sign
 " hedgehog
 " helicopter
 " herb
@@ -1141,8 +1171,15 @@
 " ice-hockey
 " ice-skate
 " id-button
+" identification-card
 " inbox-tray
 " incoming-envelope
+" index-pointing-at-the-viewer
+" index-pointing-at-the-viewer-dark-skin-tone
+" index-pointing-at-the-viewer-light-skin-tone
+" index-pointing-at-the-viewer-medium-dark-skin-tone
+" index-pointing-at-the-viewer-medium-light-skin-tone
+" index-pointing-at-the-viewer-medium-skin-tone
 " index-pointing-up
 " index-pointing-up-dark-skin-tone
 " index-pointing-up-light-skin-tone
@@ -1178,6 +1215,7 @@
 " japanese-service-charge-button
 " japanese-symbol-for-beginner
 " japanese-vacancy-button
+" jar
 " jeans
 " joker
 " joystick
@@ -1202,7 +1240,7 @@
 " keycap-7
 " keycap-8
 " keycap-9
-" keycap-hash
+" keycap-number
 " keycap-star
 " kick-scooter
 " kimono
@@ -1347,6 +1385,12 @@
 " left-luggage
 " left-right-arrow
 " left-speech-bubble
+" leftwards-hand
+" leftwards-hand-dark-skin-tone
+" leftwards-hand-light-skin-tone
+" leftwards-hand-medium-dark-skin-tone
+" leftwards-hand-medium-light-skin-tone
+" leftwards-hand-medium-skin-tone
 " leg
 " leg-dark-skin-tone
 " leg-light-skin-tone
@@ -1376,6 +1420,7 @@
 " lollipop
 " long-drum
 " lotion-bottle
+" lotus
 " loudly-crying-face
 " loudspeaker
 " love-hotel
@@ -1386,6 +1431,7 @@
 " love-you-gesture-medium-dark-skin-tone
 " love-you-gesture-medium-light-skin-tone
 " love-you-gesture-medium-skin-tone
+" low-battery
 " luggage
 " lungs
 " lying-face
@@ -1871,6 +1917,7 @@
 " medium-skin-tone
 " megaphone
 " melon
+" melting-face
 " memo
 " men-holding-hands
 " men-holding-hands-dark-skin-tone
@@ -1937,6 +1984,7 @@
 " minibus
 " minus
 " mirror
+" mirror-ball
 " moai
 " mobile-phone
 " mobile-phone-off
@@ -1996,6 +2044,7 @@
 " nazar-amulet
 " necktie
 " nerd-face
+" nest-with-eggs
 " nesting-dolls
 " neutral-face
 " new-button
@@ -2114,7 +2163,19 @@
 " page-with-curl
 " pager
 " paintbrush
+" palm-down-hand
+" palm-down-hand-dark-skin-tone
+" palm-down-hand-light-skin-tone
+" palm-down-hand-medium-dark-skin-tone
+" palm-down-hand-medium-light-skin-tone
+" palm-down-hand-medium-skin-tone
 " palm-tree
+" palm-up-hand
+" palm-up-hand-dark-skin-tone
+" palm-up-hand-light-skin-tone
+" palm-up-hand-medium-dark-skin-tone
+" palm-up-hand-medium-light-skin-tone
+" palm-up-hand-medium-skin-tone
 " palms-up-together
 " palms-up-together-dark-skin-tone
 " palms-up-together-light-skin-tone
@@ -2444,6 +2505,12 @@
 " person-wearing-turban-medium-light-skin-tone
 " person-wearing-turban-medium-skin-tone
 " person-white-hair
+" person-with-crown
+" person-with-crown-dark-skin-tone
+" person-with-crown-light-skin-tone
+" person-with-crown-medium-dark-skin-tone
+" person-with-crown-medium-light-skin-tone
+" person-with-crown-medium-skin-tone
 " person-with-skullcap
 " person-with-skullcap-dark-skin-tone
 " person-with-skullcap-light-skin-tone
@@ -2500,6 +2567,7 @@
 " place-of-worship
 " play-button
 " play-or-pause-button
+" playground-slide
 " pleading-face
 " plunger
 " plus
@@ -2524,9 +2592,22 @@
 " potted-plant
 " poultry-leg
 " pound-banknote
+" pouring-liquid
 " pouting-cat
 " pouting-face
 " prayer-beads
+" pregnant-man
+" pregnant-man-dark-skin-tone
+" pregnant-man-light-skin-tone
+" pregnant-man-medium-dark-skin-tone
+" pregnant-man-medium-light-skin-tone
+" pregnant-man-medium-skin-tone
+" pregnant-person
+" pregnant-person-dark-skin-tone
+" pregnant-person-light-skin-tone
+" pregnant-person-medium-dark-skin-tone
+" pregnant-person-medium-light-skin-tone
+" pregnant-person-medium-skin-tone
 " pregnant-woman
 " pregnant-woman-dark-skin-tone
 " pregnant-woman-light-skin-tone
@@ -2656,7 +2737,34 @@
 " right-facing-fist-medium-dark-skin-tone
 " right-facing-fist-medium-light-skin-tone
 " right-facing-fist-medium-skin-tone
+" rightwards-hand
+" rightwards-hand-dark-skin-tone
+" rightwards-hand-dark-skin-tone-leftwards-hand-light-skin-tone
+" rightwards-hand-dark-skin-tone-leftwards-hand-medium-dark-skin-tone
+" rightwards-hand-dark-skin-tone-leftwards-hand-medium-light-skin-tone
+" rightwards-hand-dark-skin-tone-leftwards-hand-medium-skin-tone
+" rightwards-hand-light-skin-tone
+" rightwards-hand-light-skin-tone-leftwards-hand-dark-skin-tone
+" rightwards-hand-light-skin-tone-leftwards-hand-medium-dark-skin-tone
+" rightwards-hand-light-skin-tone-leftwards-hand-medium-light-skin-tone
+" rightwards-hand-light-skin-tone-leftwards-hand-medium-skin-tone
+" rightwards-hand-medium-dark-skin-tone
+" rightwards-hand-medium-dark-skin-tone-leftwards-hand-dark-skin-tone
+" rightwards-hand-medium-dark-skin-tone-leftwards-hand-light-skin-tone
+" rightwards-hand-medium-dark-skin-tone-leftwards-hand-medium-light-skin-tone
+" rightwards-hand-medium-dark-skin-tone-leftwards-hand-medium-skin-tone
+" rightwards-hand-medium-light-skin-tone
+" rightwards-hand-medium-light-skin-tone-leftwards-hand-dark-skin-tone
+" rightwards-hand-medium-light-skin-tone-leftwards-hand-light-skin-tone
+" rightwards-hand-medium-light-skin-tone-leftwards-hand-medium-dark-skin-tone
+" rightwards-hand-medium-light-skin-tone-leftwards-hand-medium-skin-tone
+" rightwards-hand-medium-skin-tone
+" rightwards-hand-medium-skin-tone-leftwards-hand-dark-skin-tone
+" rightwards-hand-medium-skin-tone-leftwards-hand-light-skin-tone
+" rightwards-hand-medium-skin-tone-leftwards-hand-medium-dark-skin-tone
+" rightwards-hand-medium-skin-tone-leftwards-hand-medium-light-skin-tone
 " ring
+" ring-buoy
 " ringed-planet
 " roasted-sweet-potato
 " robot
@@ -2681,6 +2789,7 @@
 " sailboat
 " sake
 " salt
+" saluting-face
 " sandwich
 " santa-claus
 " santa-claus-dark-skin-tone
@@ -2958,6 +3067,7 @@
 " triangular-flag
 " triangular-ruler
 " trident-emblem
+" troll
 " trolleybus
 " trophy
 " tropical-drink
@@ -3038,6 +3148,7 @@
 " weary-face
 " wedding
 " whale
+" wheel
 " wheel-of-dharma
 " wheelchair-symbol
 " white-cane
@@ -3573,6 +3684,7 @@
 " writing-hand-medium-dark-skin-tone
 " writing-hand-medium-light-skin-tone
 " writing-hand-medium-skin-tone
+" x-ray
 " yarn
 " yawning-face
 " yellow-circle
