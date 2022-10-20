@@ -32,7 +32,7 @@ Other helpful sources: [Emoji Test (Plain Text List)](https://unicode.org/Public
 ### ABAP
 
 ```abap
-write zcl_emoji=>format_emoji( 'I :heart: ABAP' ).
+write zcl_emoji=>create( )->format_emoji( 'I :red-heart: ABAP' ).
 ```
 
 ### Output
@@ -40,7 +40,7 @@ write zcl_emoji=>format_emoji( 'I :heart: ABAP' ).
 I ❤️ ABAP
 
 ```html
-I <i class="twa twa-heart"></i> ABAP
+I <i class="twa twa-red-heart"></i> ABAP
 ```
 
 Note: Include [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-amazing.css) in your HTML output.
