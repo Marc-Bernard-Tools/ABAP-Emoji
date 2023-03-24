@@ -1,3 +1,9 @@
+![Version](https://img.shields.io/endpoint?url=https://shield.abap.space/version-shield-json/github/Marc-Bernard-Tools/ABAP-Emoji/src/zcl_emoji.clas.abap/c_version&label=Version&color=blue)
+
+[![License](https://img.shields.io/github/license/Marc-Bernard-Tools/ABAP-XXX?label=License&color=green)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=green)](https://github.com/Marc-Bernard-Tools/.github/blob/main/CODE_OF_CONDUCT.md)
+[![REUSE Status](https://api.reuse.software/badge/github.com/Marc-Bernard-Tools/ABAP-Emoji)](https://api.reuse.software/info/github.com/Marc-Bernard-Tools/ABAP-Emoji)
+
 # ✨ ABAP-Emoji ✨
 
 Emoji for ABAP
