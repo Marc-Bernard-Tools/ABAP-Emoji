@@ -1,13 +1,13 @@
 ********************************************************************************
 * ABAP Emoji
 *
-* Support for Emoji v14.0
-*
-* https://github.com/Marc-Bernard-Tools/ABAP-Emoji
-*
 * Copyright 2022 Marc Bernard <https://marcbernardtools.com/>
 * SPDX-License-Identifier: MIT
 ********************************************************************************
+
+* Twemoji prodived by Twitter (Emoji 14.0)
+* https://github.com/twitter/twemoji
+* https://github.com/SebastianAigner/twemoji-amazing (CSS)
 
 " 1st-place-medal
 " 2nd-place-medal
