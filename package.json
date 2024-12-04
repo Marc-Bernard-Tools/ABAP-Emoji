@@ -1,0 +1,39 @@
+{
+  "name": "emoji",
+  "version": "1.3.0",
+  "description": "Emoji for ABAP",
+  "author": {
+    "email": "marc@marcbernardtools.com",
+    "name": "Marc Bernard",
+    "url": "https://github.com/mbtools"
+  },
+  "bugs": {
+    "url": "https://github.com/Marc-Bernard-Tools/ABAP-Emoji/issues"
+  },
+  "engines": {
+    "abap": ">=7.0.2",
+    "apm": ">=1"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/mbtools"
+  },
+  "homepage": "https://marcbernardtools.com",
+  "keywords": [
+    "abap",
+    "emoji",
+    "sap"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "email": "marc@marcbernardtools.com",
+      "name": "Marc Bernard",
+      "url": "https://github.com/mbtools"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marc-Bernard-Tools/ABAP-Emoji.git"
+  }
+}
