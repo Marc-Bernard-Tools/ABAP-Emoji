@@ -25,7 +25,11 @@ CLASS zcl_emoji DEFINITION
       ty_code    TYPE STANDARD TABLE OF string WITH DEFAULT KEY,
       ty_results TYPE SORTED TABLE OF string WITH UNIQUE DEFAULT KEY.
 
-    CONSTANTS c_version TYPE string VALUE '1.1.0' ##NEEDED.
+    CONSTANTS c_version TYPE string VALUE '1.2.0' ##NEEDED.
+
+    " https://github.com/twitter/twemoji/issues/580
+    CONSTANTS c_cdn TYPE string
+      VALUE 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/'.
 
     CLASS-METHODS create
       RETURNING
@@ -337,6 +341,7 @@ CLASS zcl_emoji IMPLEMENTATION.
     ASSERT sy-subrc = 0.
 
     LOOP AT lt_code ASSIGNING <lv_line> WHERE table_line CP '" *'.
+      REPLACE '//' IN <lv_line> WITH c_cdn.
       INSERT <lv_line>+2(*) INTO TABLE mt_twemoji.
     ENDLOOP.
 
