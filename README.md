@@ -16,13 +16,13 @@ Based on [Twitter Emoji](https://github.com/twitter/twemoji) and [Twemoji Amazin
 
 ## Prerequisite
 
-HTML output with Internet connection since Emoji graphics are hosted on https://twemoji.maxcdn.com/.
+HTML output with Internet connection since Emoji graphics are hosted on `https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/`.
 
 ## Installation
 
 You can install ABAP Emoji using [abapGit](https://github.com/abapGit/abapGit) either creating a new online repository for https://github.com/Marc-Bernard-Tools/ABAP_Emoji or downloading the repository [ZIP file](https://github.com/Marc-Bernard-Tools/ABAP_Emoji/archive/main.zip) and creating a new offline repository.
 
-We recommend to use package `$EMOJI`.
+We recommend using package `$EMOJI`.
 
 ## Usage
 
@@ -53,7 +53,7 @@ Note: Include [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob
 
 ## Integrate with abapGit (Developer Version)
 
-![image](img/abapGit_Emoji_Example.png)
+![image](https://github.com/mbtools/ABAP-Emoji/blob/main/img/abapGit_Emoji_Example.png?raw=true)
 
 1. Insert one line into the following class
 
@@ -71,7 +71,7 @@ CLASS zcl_abapgit_syntax_highlighter IMPLEMENTATION.
 
 2. Start transaction `SMW0` > `Binary data` > `$ABAPGIT` 
 3. Edit `ZABAPGIT_ICON_FONT_CSS`
-4. Append [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-amazing.css) to the icon css and save
+4. Append [`twemoji-amazing.css`](https://github.com/mbtools/ABAP-Emoji/blob/main/css/twemoji-amazing.css) to the icon CSS and save
 
 ## Contributions
 
